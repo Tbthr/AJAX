@@ -1,0 +1,9 @@
+spring:
+#  \u914D\u7F6E\u89C6\u56FE\u89E3\u6790
+  mvc:
+    view:
+      prefix: classpath:/templates/
+      suffix: .html
+#  \u5F00\u653Etemplates
+  resources:
+    static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/,classpath:/templates/
